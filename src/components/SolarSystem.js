@@ -4,10 +4,16 @@
 // Renderize o componente SolarSystem abaixo do Header, dentro do componente principal App.
 
 import React from 'react';
+import Title from './Title';
 
 class SolarSystem extends React.Component {
   render() {
-    return <div data-testid="solar-system" />;
+    return (
+      <>
+        <div data-testid="solar-system" />
+        <Title headline="Planetas" />
+      </> // Requisito 04: renderize o componente Title dentro do componente SolarSystem. O componente Title deve ser renderizado recebendo a prop headline com o valor "Planetas".
+    );
   }
 }
 
