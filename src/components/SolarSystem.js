@@ -13,7 +13,6 @@ class SolarSystem extends React.Component {
       <>
         <div data-testid="solar-system" />
         <Title headline="Planetas" />
-        <Missions />
       </> // Requisito 04: renderize o componente Title dentro do componente SolarSystem. O componente Title deve ser renderizado recebendo a prop headline com o valor "Planetas".
     );
   }
