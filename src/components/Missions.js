@@ -5,6 +5,8 @@
 
 import React from 'react';
 import Title from './Title';
+import MissionCard from './MissionCard';
+import missions from '../data/missions';
 
 class Missions extends React.Component {
   render() {
@@ -12,6 +14,15 @@ class Missions extends React.Component {
       <>
         <div data-testid="missions" />
         <Title headline="Missões" />
+        {missions.map((missoes) => ( // Requisito 10.
+          <MissionCard
+            Key={ missoes.name }
+            name={ missoes.name }
+            year={ missoes.year }
+            country={ missoes.country }
+            destination={ missoes.destination }
+          />
+        ))}
       </>
     ); // Requisito 08: renderize o componente Title dentro do componente Missions. O componente Title deve ser renderizado recebendo a prop headline com o valor "Missões".
   }
