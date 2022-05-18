@@ -1,75 +1,65 @@
 .App {
   text-align: center;
 }
-
 body {
   background-image: url('./images/background.png');
   background-size: cover;
-  color:  white;
+  color:white;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 h1 {
-  text-align: center;
-  font-size: 70px;
   align-items: center;
-  justify-content: center;
-  height: 100px;
-} 
-
-h2 {
+  font-size: 70px;
   text-align: center;
-  font-size: 30px;
+  height: 100px;
+  justify-content: center;
+} 
+h2 {
   border: solid 1px;
   border-radius: 10px;
-  padding: 7px;
+  font-size: 30px;
   margin: 1px;
   margin-bottom: 30px;
+  padding: 7px;
+  text-align: center;
 }
-
 .planets-solar-system {
-  display: flex;
   align-items: center;
-  /* flex-direction: column; */
+  display: flex;
   flex-wrap: wrap;
-  text-align: center;
   justify-content: space-around;
-  margin: 2% 2%;
+  margin: 2%;
+  text-align: center;
 }
-
 .planet-missions {
-  display: flex;
   align-items: center;
-  /* flex-direction: column; */
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-between;
-  margin: 2% 2%;
-}
-
-.mission-card {
   display: flex;
-  flex-flow: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2%;
   text-align: center;
+}
+.mission-card {
+  background-color: rgba(0, 0, 0, 0.411);
   border: solid 1px;
   border-radius: 5px;
-  width: 240px;
+  display: flex;
+  flex-flow: column;
   margin-bottom: 1.5%;
-  background-color: rgba(0, 0, 0, 0.411);
+  text-align: center;
+  width: 240px;
 }
-
 .mission-name {
+  border: solid 0.5px;
+  border-radius: 5px;
   font-size: 1em;
   font-weight: 700;
-  padding: 10px;
-  border: solid 0.5px;
   margin: 0px;
-  border-radius: 5px;
+  padding: 10px;
 }
-
 .mission-dados {
-  font-size: 0.9em;
-  padding: 10px;
-  margin: 0px;
   color: rgb(156, 153, 153);
+  font-size: 0.9em;
+  margin: 0px;
+  padding: 10px;
 }

@@ -1,35 +1,27 @@
 #Mercúrio {
-  width: 2.0em;
+  width: 2.5em;
 }
-
 #Terra {
-  width: 5.0em;
+  width: 5.5em;
 }
-
 #Marte {
-  width: 3.0em;
+  width: 3.5em;
 }
-
 #Júpiter {
   width: 17em;
 }
-
 #Saturno {
   width: 15em;
 }
-
 #Vênus {
-  width: 4.0em;
+  width: 4.5em;
 }
-
 #Urano {
-  width: 9.0em;
+  width: 9.5em;
 }
-
 #Netuno {
-  width: 8.0em;
+  width: 8.5em;
 }
-
 .planet-name {
   text-align: center;
 }
