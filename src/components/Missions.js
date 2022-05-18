@@ -14,15 +14,17 @@ class Missions extends React.Component {
       <>
         <div data-testid="missions" />
         <Title headline="Missões" />
-        {missions.map((missoes) => ( // Requisito 10.
-          <MissionCard
-            Key={ missoes.name }
-            name={ missoes.name }
-            year={ missoes.year }
-            country={ missoes.country }
-            destination={ missoes.destination }
-          />
-        ))}
+        <div className="planet-missions">
+          {missions.map((missoes) => ( // Requisito 10.
+            <MissionCard
+              Key={ missoes.name }
+              name={ missoes.name }
+              year={ missoes.year }
+              country={ missoes.country }
+              destination={ missoes.destination }
+            />
+          ))}
+        </div>
       </>
     ); // Requisito 08: renderize o componente Title dentro do componente Missions. O componente Title deve ser renderizado recebendo a prop headline com o valor "Missões".
   }

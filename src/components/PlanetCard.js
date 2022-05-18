@@ -8,14 +8,20 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import './PlanetCard.css';
 
 class PlanetCard extends React.Component {
   render() {
-    const { planetName, planetImage } = this.props;
+    const { planetName, planetImage, planetCard, key } = this.props;
+    console.log(planetCard);
     return (
-      <div data-testid="planet-card">
-        <p data-testid="planet-name">{planetName}</p>
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } />
+      <div data-testid="planet-card" key={ key } className={ planetCard }>
+        <img
+          src={ planetImage }
+          alt={ `Planeta ${planetName}` }
+          id={ planetName }
+        />
+        <p data-testid="planet-name" className="planet-name">{ planetName }</p>
       </div>
     );
   }
@@ -24,6 +30,8 @@ class PlanetCard extends React.Component {
 PlanetCard.propTypes = {
   planetName: PropTypes.string.isRequired,
   planetImage: PropTypes.string.isRequired,
+  key: PropTypes.string.isRequired,
+  planetCard: PropTypes.string.isRequired,
 };
 
 export default PlanetCard;
