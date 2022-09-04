@@ -1,5 +1,7 @@
 # Solar System :ringed_planet:
 
+![Projeto Solar System](https://user-images.githubusercontent.com/98343640/188335443-a7cdaba7-2bb3-46a0-984b-0926de1a36ae.png)
+
 ## :page_with_curl: Sobre
 
 No presente projeto foi desenvolvido um modelo do sistema solar e ao utilizar essa aplicação o usuário será capaz de visualizar todos os planetas do sistema solar renderizados na tela e todas as cartas com informações sobre as missões espaciais.
