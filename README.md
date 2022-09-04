@@ -6,4 +6,18 @@ No presente projeto foi desenvolvido um modelo do sistema solar e ao utilizar es
 
 Trata-se da minha primeira aplicação usando React simples, com criação de componentes de classes e passagem de props.
 
-[Click here](https://famalaquias.github.io/project-solar-system) to check out the final version of the project on your browser.
+## :man_technologist: Habilidades Desenvolvidas
+
+* Desenvolver uma aplicação React básica e simples 
+* Criar e reutilizar componentes de classes em React
+* Utilizar JSX
+* Utilizar o método import para trazer componentes em diferentes arquivos
+* Fazer o uso de props
+* Fazer uso de PropTypes para validar as props de um componente
+
+## :hammer_and_wrench: Ferramentas Utilizadas
+
+* JavaScript ES6
+* React
+* HTML5
+* CSS3
