@@ -2,7 +2,6 @@
 
 ![Projeto Solar System](https://user-images.githubusercontent.com/98343640/188335443-a7cdaba7-2bb3-46a0-984b-0926de1a36ae.png)
 
-![Desktop preview](/home/fabiane/Downloads/2022090908321..mp4)
 
 ## :page_with_curl: Sobre
 
