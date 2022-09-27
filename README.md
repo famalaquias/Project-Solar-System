@@ -9,6 +9,10 @@ No presente projeto foi desenvolvido um modelo do sistema solar e ao utilizar es
 
 Trata-se da minha primeira aplicação usando React simples, com criação de componentes de classes e passagem de props.
 
+
+[:link: Clique aqui para acessar](https://solar-system-nine.vercel.app/)
+
+
 ## :man_technologist: Habilidades Desenvolvidas
 
 * Desenvolver uma aplicação React básica e simples 
