@@ -1,6 +1,6 @@
 # :ringed_planet: Solar System :ringed_planet:
 
-![solar](https://user-images.githubusercontent.com/98343640/192593311-88075369-2c9a-456a-9d9d-f92256941f84.png)
+![solar](https://user-images.githubusercontent.com/98343640/192595067-faeea21d-b176-4b8f-b7d3-2ff0a656af73.png)
 
 
 ## :page_with_curl: Sobre
